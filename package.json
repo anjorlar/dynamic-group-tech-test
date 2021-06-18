@@ -1,0 +1,33 @@
+{
+  "name": "dynamic-group-tech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjorlar/dynamic-group-tech-test.git"
+  },
+  "keywords": [],
+  "author": " Adebayo Anjola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjorlar/dynamic-group-tech-test/issues"
+  },
+  "homepage": "https://github.com/anjorlar/dynamic-group-tech-test#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "helmet": "4.6.0",
+    "moment": "2.29.1",
+    "mongoose": "5.12.14",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
