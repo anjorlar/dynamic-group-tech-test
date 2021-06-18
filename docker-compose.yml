@@ -6,13 +6,14 @@ services:
         - "3004:3004"
       environment:
         -  PORT=3004
+      env_file:
+        - ./.env
       depends_on:
         - db
-        - redis
-      links:
-        - redis
       volumes:
-        - .:/app
+        - ./:/app
+        - /app/node_modules
+      command: npm run dev
                   
     db:
       image: mongo
@@ -22,18 +23,7 @@ services:
       volumes:
         - db:/data/db
 
-    redis:
-      image: redis
-      ports:
-        - "6379:6379"
-      volumes:
-        - /redis-data
-      environment:
-        - REDIS_HOST=redis
-        - REDIS_PORT=6379
-
 volumes:
   db:
-  redis-data:
   app:
 
