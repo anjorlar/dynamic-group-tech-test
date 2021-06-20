@@ -1,9 +1,5 @@
 # dynamic-group-tech-test
 
-A simple node/express API 
-* Base Route `http://localhost:3004/`
-* Sample Route `http://localhost:3004/v1/getAllItem`
-
 # To run your App with Docker follow the steps below
 ## Setting up Docker
 
@@ -49,10 +45,19 @@ A simple node/express API
 | GET /v1/getAllItem?page=2&limit=10                 | search for a user                    |
 | GET /                                              | Base route
 
+localhost
+* Base Route `http://localhost:3004/`
+* Get All items `http://localhost:3004/v1/getAllItem`
+* Get individual item  `http://localhost:3004/v1//getItem/60ce839fb2e84d0117b1cea`
+Remote
+* Base Route [https://itemlist-app.herokuapp.com]
+* Get All items [https://itemlist-app.herokuapp.com/v1/getAllItem]
+* Get individual item [https://itemlist-app.herokuapp.com/v1/getItem/60ce839fb2e84d0117b1cea8]
+
 # Documentation
 To access the documentation
 * Install Postman [https://www.postman.com/downloads/]
-* click the link below to import the endpoints to Postman
+* click the link to import the endpoints to Postman
 [Postman Documentation](https://documenter.getpostman.com/view/7087675/TzeZDkuc)
 
 ## Author
