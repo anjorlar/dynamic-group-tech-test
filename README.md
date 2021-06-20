@@ -46,16 +46,17 @@
 | GET /                                              | Base route
 
 localhost
-* Base Route `http://localhost:3004/`
-* Get All items `http://localhost:3004/v1/getAllItem`
-* Get individual item  `http://localhost:3004/v1//getItem/60ce839fb2e84d0117b1cea`
+* Base Route [http://localhost:3004/]
+* Get All items [http://localhost:3004/v1/getAllItem]
+* Get individual item  [http://localhost:3004/v1//getItem/60ce839fb2e84d0117b1cea]
+
 Remote
 * Base Route [https://itemlist-app.herokuapp.com]
 * Get All items [https://itemlist-app.herokuapp.com/v1/getAllItem]
 * Get individual item [https://itemlist-app.herokuapp.com/v1/getItem/60ce839fb2e84d0117b1cea8]
 
 # Documentation
-To access the documentation
+To access api endpoint
 * Install Postman [https://www.postman.com/downloads/]
 * click the link to import the endpoints to Postman
 [Postman Documentation](https://documenter.getpostman.com/view/7087675/TzeZDkuc)
