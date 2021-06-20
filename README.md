@@ -5,7 +5,7 @@
 
 - Install Docker [https://docs.docker.com/engine/install/]
 
-- Set Environment Variables check sample.env `(.env)`
+- Create a `.env` file in the root directory then check sample.env to set Environment Variables values
 
 # To builds image and start containers
 
@@ -25,7 +25,7 @@
 * `Download or clone`
 * `Open the terminal and cd into the cloned or downloaded folder from the terminal`
 * `Type npm install to install all dependencies`
-* `check sample.env and update all environmental variable`
+* `Create a .env file in the root directory then check sample.env to set Environment Variables values`
 
 ## To Run the app
 * `npm start` to run in production
