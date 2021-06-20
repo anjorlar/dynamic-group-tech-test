@@ -9,7 +9,7 @@ mongoose.connect(connectionUri, {
     useUnifiedTopology: true,
 })
     .then((res) => {
-        console.log(`connected successfully with Database: ${res.connections[0].name},
+        console.log(`connected successfully with Database: ${res.connections[0].name}
         `)
     })
     .catch((error => { console.log(`error connecting`, error); process.exit(1); }));

@@ -24,5 +24,12 @@ const itemListSchema = new mongoose.Schema({
     },
 }, { timestamps: true })
 
+itemListSchema.set('toJSON', {
+    transform: (document, returnedObject) => {
+        returnedObject.id = returnedObject._id.toString()
+        delete returnedObject._id
+        delete returnedObject.__v
+    }
+})
 const item = mongoose.model('item', itemListSchema)
 module.exports = item

@@ -1,11 +1,11 @@
 const pagination = (count, paginate) => {
     const numberOfPages = Math.ceil(count / paginate.limit)
-    const nextPage = parseInt(paginate.page) + 1
+    const mainPage = parseInt(paginate.page) + 1;
     const meta = {
-        page: paginate.page,
+        page: mainPage,
         limit: paginate.limit,
-        previousPage: (paginate.page > 1) ? (parseInt(paginate.page - 1)) : false,
-        nextPage: (numberOfPages >= nextPage) ? nextPage : false,
+        previousPage: (mainPage > 1) ? (parseInt(mainPage - 1)) : false,
+        nextPage: (numberOfPages > mainPage) ? mainPage + 1 : false,
         pageCount: numberOfPages,
         total: count
     };

@@ -35,5 +35,25 @@ A simple node/express API
 * `npm start` to run in production
 * `npm run dev` to run in development
 
+
+# Features
+
+- Gets a single item when the item's id is passed
+- Gets all items.
+
+## API Endpoints  
+
+| Endpoint                                           | Functionality                        |
+| -------------------------------------------------  | -----------------------------------  |
+| GET /v1/getItem/:id                                | List all items                       |
+| GET /v1/getAllItem?page=2&limit=10                 | search for a user                    |
+| GET /                                              | Base route
+
+# Documentation
+To access the documentation
+* Install Postman [https://www.postman.com/downloads/]
+* click the link below to import the endpoints to Postman
+[Postman Documentation](https://documenter.getpostman.com/view/7087675/TzeZDkuc)
+
 ## Author
 Anjola Adebayo
