@@ -46,9 +46,9 @@
 | GET /                                              | Base route
 
 localhost
-* Base Route [http://localhost:3004/]
-* Get All items [http://localhost:3004/v1/getAllItem]
-* Get individual item  [http://localhost:3004/v1//getItem/60ce839fb2e84d0117b1cea]
+* Base Route [`http://localhost:3004/`]
+* Get All items [`http://localhost:3004/v1/getAllItem`]
+* Get individual item  [`http://localhost:3004/v1/getItem/60ce839fb2e84d0117b1cea`]
 
 Remote
 * Base Route [https://itemlist-app.herokuapp.com]
