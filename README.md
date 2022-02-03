@@ -11,7 +11,12 @@
 
 - RUN in Development mode `docker-compose up --build` [only use the --build whenever you make changes to Dockerfile or Package.json] else
 
-- RUN `docker-compose up -d`
+- RUN `docker-compose up -d` [only use the -d flag to run docker container underground]
+
+- To kill running container(s) `docker-compose down`
+- To remove image `docker rmi [IMAGE_ID] -f`
+- To remove multiple images `docker rmi -f $(docker images -aq)`
+- To access running container `docker exec -it [container_id or container_name] bash`
 
 
 # To run with node follow the steps below
