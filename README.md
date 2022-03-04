@@ -46,8 +46,9 @@
 
 | Endpoint                                           | Functionality                        |
 | -------------------------------------------------  | -----------------------------------  |
-| GET /v1/getItem/:id                                | List all items                       |
-| GET /v1/getAllItem?page=2&limit=10                 | search for a user                    |
+| GET /v1/getItem/:id                                | Get individual item with item id     |
+| GET /v1/getAllItem                                 | Get all items                        |
+| GET /v1/getAllItem?page=2&limit=10                 | Get all items with paginantion passed|
 | GET /                                              | Base route
 
 localhost
